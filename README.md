@@ -1,7 +1,7 @@
 <p align="center">
   <img src="docs/images/pdf_xml_comparator.png"
        alt="PDF / XML Comparator — local comparison highlighting data differences between PDF and XML files"
-       width="600">
+       width="1200">
 </p>
 
 > 🇬🇧 English | [🇫🇷 Français](./README_FR.md)
