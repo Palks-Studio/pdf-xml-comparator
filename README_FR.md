@@ -113,6 +113,12 @@ VALEURS XML NON RETROUVÉES DANS LE PDF
 
 Les valeurs identiques signalées plusieurs fois côté XML sont dédupliquées afin de rendre le rapport plus lisible.
 
+L'interface conserve également une vue du contenu extrait des deux fichiers : le texte détecté dans le PDF, les données extraites du XML, puis le rapport des différences identifiées.
+
+Ces trois zones permettent d'effectuer une première comparaison directement dans l'application, sans avoir à passer constamment d'un fichier à l'autre.
+
+Pour une vérification plus approfondie, les fichiers PDF et XML d'origine restent bien entendu la référence et peuvent être consultés directement.
+
 ---
 
 ## Important
