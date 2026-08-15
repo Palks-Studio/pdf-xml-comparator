@@ -43,9 +43,17 @@ pdf_xml_comparator/
 ├── README_FR.md                   → Documentation française
 │
 └── docs/
-    └── images/
-        ├── Palks_Studio.png       → Logo Palks Studio
-        └── pdf_xml_comparator.png → Image de présentation du comparateur
+    ├── images/
+    │   ├── Palks_Studio.png       → Logo Palks Studio
+    │   └── pdf_xml_comparator.png → Image de présentation du comparateur
+    │
+    ├── EN/
+    │   ├── invoice.pdf            → Exemple de facture en anglais
+    │   └── facturx.xml            → Exemple XML Factur-X en anglais
+    │
+    └── FR/
+        ├── facture.pdf            → Exemple de facture en français
+        └── facturx.xml            → Exemple XML Factur-X en français
 ```
 
 ---
@@ -167,6 +175,14 @@ Cette approche permet de conserver un fonctionnement simple et générique, sans
 ## Utilisation
 
 ### 1. Installer Python
+
+### Fichiers d'exemple
+
+Le dépôt contient deux jeux de fichiers d'exemple permettant de tester directement le comparateur.
+
+Une version française et une version anglaise sont disponibles dans le dossier `docs/`, chacune comprenant un fichier PDF et son fichier XML Factur-X associé.
+
+Ces fichiers peuvent être utilisés pour découvrir le fonctionnement de l'outil avant de réaliser une comparaison avec vos propres documents.
 
 Python 3 est nécessaire pour exécuter le programme.
 
