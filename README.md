@@ -111,6 +111,12 @@ XML VALUES NOT FOUND IN PDF
 
 Identical values reported multiple times on the XML side are deduplicated to make the report easier to read.
 
+The interface also keeps a view of the content extracted from both files: the text detected in the PDF, the data extracted from the XML, and the report of the identified differences.
+
+These three sections allow an initial comparison to be performed directly within the application, without constantly switching between the two files.
+
+For a more detailed review, the original PDF and XML files remain the reference and can of course be opened and examined directly.
+
 ---
 
 ## Important
