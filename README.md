@@ -47,11 +47,13 @@ pdf_xml_comparator/
     │
     ├── EN/
     │   ├── invoice.pdf            → English invoice example
-    │   └── facturx.xml            → English Factur-X XML example
+    │   ├── facturx.xml            → English Factur-X XML example
+    │   └── xml_pdf_en.mp4         → English demonstration video
     │
     └── FR/
         ├── facture.pdf            → French invoice example
-        └── facturx.xml            → French Factur-X XML example
+        ├── facturx.xml            → French Factur-X XML example
+        └── xml_pdf_fr.mp4         → French demonstration video
 ```
 
 ---
@@ -172,13 +174,13 @@ This approach keeps the tool simple and generic, without tying the comparison en
 
 ## Usage
 
-### Example files
+### Example files and demonstration
 
 The repository includes two sets of example files that can be used to test the comparator directly.
 
-A French version and an English version are available in the `docs/` directory, each containing a PDF file and its associated Factur-X XML file.
+An English version and a French version are available in the `docs/` directory, each including a PDF file, its associated Factur-X XML file, and a short video showing their comparison using the tool.
 
-These files can be used to explore how the tool works before performing a comparison with your own documents.
+These files provide a quick way to explore how the comparator works before using it with your own documents.
 
 ### 1. Install Python
 
