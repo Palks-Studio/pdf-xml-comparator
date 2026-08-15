@@ -49,11 +49,13 @@ pdf_xml_comparator/
     │
     ├── EN/
     │   ├── invoice.pdf            → Exemple de facture en anglais
-    │   └── facturx.xml            → Exemple XML Factur-X en anglais
+    │   ├── facturx.xml            → Exemple XML Factur-X en anglais
+    │   └── xml_pdf_en.mp4         → Vidéo de démonstration en anglais
     │
     └── FR/
         ├── facture.pdf            → Exemple de facture en français
-        └── facturx.xml            → Exemple XML Factur-X en français
+        ├── facturx.xml            → Exemple XML Factur-X en français
+        └── xml_pdf_fr.mp4         → Vidéo de démonstration en français
 ```
 
 ---
@@ -174,15 +176,15 @@ Cette approche permet de conserver un fonctionnement simple et générique, sans
 
 ## Utilisation
 
-### 1. Installer Python
-
-### Fichiers d'exemple
+### Fichiers d'exemple et démonstration
 
 Le dépôt contient deux jeux de fichiers d'exemple permettant de tester directement le comparateur.
 
-Une version française et une version anglaise sont disponibles dans le dossier `docs/`, chacune comprenant un fichier PDF et son fichier XML Factur-X associé.
+Une version française et une version anglaise sont disponibles dans le dossier `docs/`, chacune comprenant un fichier PDF, son fichier XML Factur-X associé ainsi qu'une courte vidéo montrant leur comparaison avec l'outil.
 
-Ces fichiers peuvent être utilisés pour découvrir le fonctionnement de l'outil avant de réaliser une comparaison avec vos propres documents.
+Ces fichiers permettent de découvrir rapidement le fonctionnement du comparateur avant de l'utiliser avec vos propres documents.
+
+### 1. Installer Python
 
 Python 3 est nécessaire pour exécuter le programme.
 
