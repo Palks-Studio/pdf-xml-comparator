@@ -20,7 +20,7 @@
 
 
 
-# PDF / XML Comparator
+# PDF / XML Comparator, Open Source
 
 Outil local et open source permettant de comparer les données présentes dans un fichier PDF et un fichier XML.
 
