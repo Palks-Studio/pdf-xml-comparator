@@ -18,7 +18,7 @@
   </a>
 </p>
 
-# PDF / XML Comparator
+# PDF / XML Comparator, Open Source
 
 A local, open-source tool for comparing data contained in a PDF file and an XML file.
 
