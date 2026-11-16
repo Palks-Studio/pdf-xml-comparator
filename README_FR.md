@@ -11,6 +11,7 @@
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+[![DEV.to](https://img.shields.io/badge/DEV.to-Technical%20Article-7C3AED?style=flat&logo=devdotto&logoColor=white)](https://dev.to/palks_studio/comparing-pdf-and-xml-data-locally-with-python-502n)
 
 <p align="center">
   <a href="https://palks-studio.com">
@@ -27,6 +28,10 @@ Outil local et open source permettant de comparer les données présentes dans u
 L'objectif est simple : repérer rapidement les valeurs présentes dans une représentation mais qui ne sont pas retrouvées dans l'autre, afin de faciliter une vérification humaine.
 
 Le programme fonctionne entièrement en local, sans API, sans service externe et sans intelligence artificielle.
+
+Pour aller plus loin, un article technique présente la conception de PDF / XML Comparator, son moteur de comparaison bidirectionnelle, la normalisation des données et les choix techniques permettant de repérer les différences entre un PDF et un XML entièrement en local avec Python.
+
+👉 [Comparing PDF and XML Data Locally With Python](https://dev.to/palks_studio/comparing-pdf-and-xml-data-locally-with-python-502n) (DEV.to, en anglais)
 
 ---
 
