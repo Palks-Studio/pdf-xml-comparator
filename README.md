@@ -11,6 +11,7 @@
 ![Offline First](https://img.shields.io/badge/Mode-Offline%20First-0095b1?style=flat)
 [![YouTube](https://img.shields.io/badge/YouTube-@Palks__Studio-FF0000?style=flat&logo=youtube&logoColor=white)](https://www.youtube.com/@Palks_Studio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-@Palks__Studio-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/palks-studio/)
+[![DEV.to](https://img.shields.io/badge/DEV.to-Technical%20Article-7C3AED?style=flat&logo=devdotto&logoColor=white)](https://dev.to/palks_studio/comparing-pdf-and-xml-data-locally-with-python-502n)
 
 <p align="center">
   <a href="https://palks-studio.com">
@@ -25,6 +26,10 @@ A local, open-source tool for comparing data contained in a PDF file and an XML 
 The goal is simple: quickly identify values that are present in one representation but cannot be found in the other, making human review easier.
 
 The program runs entirely locally, with no API, no external service, and no artificial intelligence.
+
+For a closer look at the technical approach, this article explores the design of PDF / XML Comparator, its bidirectional comparison engine, data normalization, and the engineering choices behind detecting differences between PDF and XML files entirely locally with Python.
+
+👉 [Comparing PDF and XML Data Locally With Python](https://dev.to/palks_studio/comparing-pdf-and-xml-data-locally-with-python-502n) (DEV.to)
 
 ---
 
